@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lemonchiffon;
+            font-family: 'Anonymous Pro', monospace;
+            text-align: center;
+        }
+
+        #profile_picture {
+            width: 25%;
+            max-width: 200px;
+            height: auto;            
+            border-radius: 50%;
+        }
+
+        .wrapper{
+            position: absolute;
+            text-align: center;
+            top: 25%;
+            left: 25%;
+            width: 50%;
+           
+        }
+
+        
+
+        #socials{
+            display: inline-block;
+        }
+
+        #socials > *{
+            color: brown;
+        }
+
+        .id{
+            display: inline;
+        }
+
+        #about_me{
+            padding: 1em;
+            max-width: 300px;
+            margin: auto;
+        }
+
+        
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper_wrapper">
+        <div class="wrapper">
+            <img id="profile_picture" src="assets/amsterdam.jpg"></img>
+            <p id="name">Chris Mason</p>
+            <div id="socials">
+                <a href="https://twitter.com/faroutbrother" id="x_link"><i class="fa fa-twitter"></i></a>
+                <a href="https://instagram.com/faroutbrother" id="ig_link"><i class="fa fa-instagram"></i></a>
+                <a href="mailto:ckmason9@gmail.com" id="email_link"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+            <div id="about_me">Building apps & websites until I get good at it</div>
+        </div>
+    </div>
+    
+</body>
+</html>
